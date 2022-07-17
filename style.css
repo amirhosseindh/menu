@@ -1,0 +1,69 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.menu{
+  list-style: none;
+  text-align: center;
+}
+.menu li{
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+i{
+  position: relative;
+  color: #00ccff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.l,.r{
+  transition: all .7s;
+}
+.l{
+  top: -277px;left: -47px;
+}
+.r{
+  top: -277px;right: -49px;
+}
+li:hover ~ .l,li:hover ~ .r{
+  transition: all .7s;
+}
+.about:hover ~ .l{
+  top: -233px;left: -66px;
+}
+.about:hover ~ .r{
+  top: -233px;right: -68px;
+}
+.services:hover ~ .l{
+  top: -188px;left: -90px;
+}
+.services:hover ~ .r{
+  top: -188px;right: -92px;
+}
+.portfolio:hover ~ .l{
+  top: -142px;left: -64px;
+}
+.portfolio:hover ~ .r{
+  top: -142px;right: -66px;
+}
+.team:hover ~ .l{
+  top: -97px;left: -44px;
+}
+.team:hover ~ .r{
+  top: -97px;right: -46px;
+}
+.contact:hover ~ .l{
+  top: -52px;left: -59px;
+}
+.contact:hover ~ .r{
+  top: -52px;right: -61px;
+}
